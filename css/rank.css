@@ -9,6 +9,7 @@
   text-align: center;
   width: 15%;
   border-radius: 4%;
+  display: inline-block;
 }
 
 #first {
@@ -33,11 +34,17 @@
   padding: 5%;
   width: 50%;
   border-collapse: collapse;
+  border-radius: 10px;
 }
 
 #scoreboard tr td {
   padding: 3%;
   border-bottom: black solid 2px;
+}
+
+#scoreboard tr:last-child td{
+  padding: 3%;
+  border-bottom: none;
 }
 
 .score {

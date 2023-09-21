@@ -13,7 +13,6 @@ function switchCard() {
       loginCard.style.display = 'none';
       registerCard.style.display = 'block';
       loginButton.style.display = 'block';
-      loginButton.style.width = '20%'
       registerButton.style.display = 'none';
     }
   }
